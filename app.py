@@ -6,5 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('Pagina1.html')
 
+@app.route('/prueba')
+def pagina():
+    return render_template('Pagina2.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

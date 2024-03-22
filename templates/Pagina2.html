@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostrar/Ocultar Contenido con JavaScript</title>
+  <style>
+    /* Estilo para el contenido oculto */
+    .hidden-content {
+      display: none; /* Oculta el contenido por defecto */
+    }
+  </style>
+</head>
+<body>
+  <div id="miDiv">
+    <h2>Div con Contenido Oculto</h2>
+    <p class="hidden-content">Este es el contenido que se oculta y se mostrará al hacer clic en el div.</p>
+  </div>
+  <div id="miDiv2">
+    <h2>Div con Contenido Oculto</h2>
+    <p class="hidden-content">Este es el contenido que se oculta y se mostrará al hacer clic en el div.</p>
+  </div>
+  <div id="miDiv3">
+    <h2>Div con Contenido Oculto</h2>
+    <p class="hidden-content">Este es el contenido que se oculta y se mostrará al hacer clic en el div.</p>
+  </div>
+
+  <!-- Incluye el script de JavaScript -->
+  <script>
+    // Obtener todos los divs con la clase 'hidden-content'
+    const divs = document.querySelectorAll('[id^="miDiv"]');
+
+    // Iterar sobre los divs y agregar event listener
+    divs.forEach((div) => {
+      const content = div.querySelector('.hidden-content');
+      div.addEventListener('click', function() {
+        content.classList.toggle('hidden-content');
+      });
+    });
+  </script>
+</body>
+</html>
