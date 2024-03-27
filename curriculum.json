@@ -1,0 +1,91 @@
+{
+    "perfil": {
+      "persona": {
+        "nombre": "Ricardo Emmanuel",
+        "apellido": "Sánchez Martínez",
+        "telefono": "7731921151",
+        "mail": "ricardoesm03@outlook.com",
+        "linkedin": "https://www.linkedin.com/in/rickaldo/",
+        "github": "https://github.com/ChellShort"
+      },
+      "perfil": "Estudiante de Ingeniería en Sistemas Computacionales. Una persona con alto razonamiento lógico y habilidades de pensamiento crítico. Me apasiona aprender nuevas competencias y desarrollar mis habilidades personales.",
+      "educación": {
+        "institución": "Universidad Politécnica de Querétaro",
+        "carrera": "Ingeniería en Sistemas Computacionales (Estudiando)",
+        "periodo": "Septiembre 2021 - Diciembre 2024"
+      },
+      "apartados": {
+        "seccion": [
+          {
+            "nombre": "EXPERIENCIA EN PROYECTOS",
+            "contenido": [
+              {
+                "nombre": "REINGENIERIA DE SISTEMA INTEGRAL UPQ",
+                "descripcion": "Enfocado en la creación y mantenimiento de secciones y apartados del proyecto de reingeniería del Sistema Integral de Información dentro de la Universidad Politécnica de Querétaro"
+              }
+            ]
+          },
+          {
+            "nombre": "IDIOMAS",
+            "contenido": [
+              {
+                "nombre": "INGLÉS",
+                "descripcion": "Nivel B2 Certificado TOEFL ITP Puntuación obtenida: 573"
+              },
+              {
+                "nombre": "ESPAÑOL NATIVO"
+              }
+            ]
+          },
+          {
+            "nombre": "CERTIFICADOS",
+            "contenido": [
+              {
+                "nombre": "CCNAv7: Switching, Routing, and Wireless Essentials"
+              },
+              {
+                "nombre": "CCNAv7: Redes empresariales, Seguridad y Automatización"
+              }
+            ]
+          },
+          {
+            "nombre": "HABILIDADES TECNICAS",
+            "contenido": [
+              {
+                "nombre": "Lenguajes de Programación:",
+                "descripcion": "Python (1 año), Java (1 año)"
+              },
+              {
+                "nombre": "Gestión de Versiones:",
+                "descripcion": "Github"
+              },
+              {
+                "nombre": "Gestor de datos:",
+                "descripcion": "MSSQL server, SQL lite"
+              },
+              {
+                "nombre": "Editores de código:",
+                "descripcion": "Visual Studio Code"
+              },
+              {
+                "nombre": "WEB:",
+                "descripcion": "HTML 5, CSS3, VUE.JS, PHP"
+              },
+              {
+                "nombre": "Paqueterías Microsoft Office:",
+                "descripcion": "Excel, PowerPoint, Word"
+              },
+              {
+                "nombre": "Herramientas de edición video:",
+                "descripcion": "Shortcut, Filmora"
+              }
+            ]
+          },
+          {
+            "nombre": "DIVERSIÓN"
+          }
+        ]
+      }
+    }
+  }
+  

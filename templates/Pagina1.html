@@ -30,6 +30,9 @@
         a{
             font-size: 1.2em    
         }
+        li{
+            font-size: 1.2em    
+        }
     </style>
 </head>
 <body>
@@ -46,30 +49,27 @@
                 <div class="row">
                     <div class="p-4 col">
                         <h3><strong>PERFIL</strong></h3>
-                        <a>Estudiante de Ingeniería en Sistemas Computacionales. Una persona con alto razonamiento lógico y habilidades de pensamiento crítico.
-                            Me apasiona aprender nuevas competencias y desarrollar mis habilidades personales.</a>
+                        <a id="perfil"></a>
                     </div>
                     <div class="col-med-auto p-4">
                         <h3><i class="bi bi-person"></i> <strong>CONTACTO</strong></h3>
                         <div>
-                        <a><i class="bi bi-telephone"></i> 7731921151</a>
+                        <i class="bi bi-telephone"></i><a id="telefono"></a>
                         </div>
                         <div>
-                        <a><i class="bi bi-envelope"></i> ricardoesm03@outlook.com</a>
+                        <i class="bi bi-envelope"></i><a id="email"></a>
                         </div>
                         <div>
-                        <a><i class="bi bi-linkedin"></i> https://www.linkedin.com/in/rickaldo/</a>
+                        <i class="bi bi-linkedin"></i><a id="linkedin"></a>
                         </div>
                         <div>
-                        <a><i class="bi bi-github"></i> https://github.com/ChellShort</a>
+                        <i class="bi bi-github"></i><a id="github"></a>
                         </div>
                     </div>
                     <div class="col-med-auto p-4">
                         <h3><i class="bi bi-mortarboard"></i> <strong>EDUCACIÓN</strong></h3>
                         <div>
-                        <a>Ingeniería en Sistemas Computacionales (Estudiando)<br></a>
-                        <a>Septiembre 2021 -  Diciembre 2024<br></a>
-                        <a>Universidad Politécnica de Querétaro<br></a>
+                        <a id="educacion"></a>
                         </div>
                     </div>
                 </div>
@@ -77,15 +77,15 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-12 text-center p-5 arial">
-                        <h1>RICARDO EMMANUEL SÁNCHEZ MARTÍNEZ</h1>
+                        <h1 id="nombre"></h1>
                     </div>
                     <div class="col-12 ps-5 pe-5" id="miDiv">
                         <div class="custom-div p-3">
                         <h3><i class="bi bi-person-vcard"></i> EXPERIENCIA EN PROYECTOS</h3>
                         </div>
                         <div class="p-3 mt-2 hidden-content">
-                            <a><strong>REINGENIERIA DE SISTEMA INTEGRAL UPQ</strong></a>
-                            <a><br>Enfocado en la creación y mantenimiento de secciones y apartados del proyecto de reingeniería del Sistema Integral de Información dentro de la Universidad Politécnica de Querétaro</a>
+                            <a id="titulo1seccion1"></a>
+                            <a id="texto1seccion1"></a>
                         </div>
                     </div>
                     <div class="col-12 ps-5 pe-5" id="miDiv2">
@@ -94,13 +94,14 @@
                         </div>
                         <div class="hidden-content">
                             <div class="p-3 mt-2">
-                                <a><strong>INGLÉS</strong><br>Nivel B2</a>
+                                <a id="titulo1seccion2"></a>
+                                <a id="texto1seccion2"></a>
                                 <div class="ps-3">
-                                <li>Certificado TOEFL ITP<br>Puntuación obtenida: 573</li>
+                                <li id="lista1seccion2"></li>
                                 </div>
                             </div>
                             <div class="ps-3 pb-4">
-                                <a><strong>ESPAÑOL NATIVO</strong></a>
+                                <a id="titulo2seccion2"></a>
                             </div>
                         </div>
                     </div>
@@ -109,8 +110,8 @@
                         <h3><i class="bi bi-award"></i> CERTIFICADOS</h3>
                         </div>
                         <div class="p-3 mt-2 hidden-content">
-                            <li><strong>CCNAv7: Switching, Routing, and Wireless Essentials</strong></li>
-                            <li><strong>CCNAv7: Redes empresariales, Seguridad y Automatización</strong></li>
+                            <li id="titulo1seccion3"></li>
+                            <li id="titulo2seccion3"></li>
                         </div>
                     </div>
                     <div class="col-12 ps-5 pe-5" id="miDiv3">
@@ -118,13 +119,13 @@
                         <h3><i class="bi bi-hammer"></i> HABILIDADES TECNICAS</h3>
                         </div>
                         <div class="p-3 mt-2 hidden-content">
-                            <a><strong>Lenguajes de Programación:</strong> Python (1 año), Java (1 año)<br></a>
-                            <a><strong>Gestión de Versiones:</strong> Github<br></a>
-                            <a><strong>Gestor de datos:</strong> MSSQL server, SQL lite<br></a>
-                            <a><strong>Editores de código:</strong> Visual Studio Code<br></a>
-                            <a><strong>WEB:</strong> HTML 5, CSS3, VUE.JS, PHP<br></a>
-                            <a><strong>Paqueterías Microsoft Office:</strong> Excel, PowerPoint, Word<br></a>
-                            <a><strong>Herramientas de edición video:</strong> Shortcut, Filmora<br></a>
+                            <a id="titulo1seccion4"></a><a id="texto1seccion4"></a>
+                            <a id="titulo2seccion4"></a><a id="texto2seccion4"></a>
+                            <a id="titulo3seccion4"></a><a id="texto3seccion4"></a>
+                            <a id="titulo4seccion4"></a><a id="texto4seccion4"></a>
+                            <a id="titulo5seccion4"></a><a id="texto5seccion4"></a>
+                            <a id="titulo6seccion4"></a><a id="texto6seccion4"></a>
+                            <a id="titulo7seccion4"></a><a id="texto7seccion4"></a>
                         </div>
                     </div>
                     <div class="col-12 ps-5 pe-5" id="miDiv4">
@@ -135,20 +136,111 @@
                             <img src="{{ url_for('static', filename='images/cat-shark.gif') }}" class="embed-responsive-item img-thumbnail" alt="Imagen 1" width="600" height="600">
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </div>
+    
 
     <script>
-        const divs = document.querySelectorAll('[id^="miDiv"]');
+      const divs = document.querySelectorAll('[id^="miDiv"]');
     
-        divs.forEach((div) => {
-          const content = div.querySelector('.hidden-content');
-          div.addEventListener('click', function() {
-            content.classList.toggle('hidden-content');
-          });
+      divs.forEach((div) => {
+        const content = div.querySelector('.hidden-content');
+        div.addEventListener('click', function() {
+          content.classList.toggle('hidden-content');
         });
+      });
+    </script>
+
+    <script>
+        function cargarDatosXML() {
+            var xhr = new XMLHttpRequest();
+            var archivoXML = "{{ url_for('static', filename='xml/curriculum.xml') }}";
+            xhr.open("GET", archivoXML, true);
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+
+                    var xmlDoc = xhr.responseXML;
+ 
+                    var nombre = xmlDoc.getElementsByTagName("nombre")[0].textContent;
+                    var perfil = xmlDoc.getElementsByTagName("perfil")[0].textContent;
+                    var telefono = xmlDoc.getElementsByTagName("telefono")[0].textContent;
+                    var email = xmlDoc.getElementsByTagName("email")[0].textContent;
+                    var linkedin = xmlDoc.getElementsByTagName("linkedin")[0].textContent;
+                    var github = xmlDoc.getElementsByTagName("github")[0].textContent;
+                    var educacion1 = xmlDoc.getElementsByTagName("carrera")[0].textContent;
+                    var educacion2 = xmlDoc.getElementsByTagName("periodo")[0].textContent;
+                    var educacion3 = xmlDoc.getElementsByTagName("institución")[0].textContent;
+                        
+                        var titulo1seccion1 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[0].getElementsByTagName("contenido")[0].getElementsByTagName("nombre")[0].textContent;
+                        var texto1seccion1 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[0].getElementsByTagName("contenido")[0].getElementsByTagName("descripcion")[0].textContent;
+                        
+                        var titulo1seccion2 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[1].getElementsByTagName("contenido")[0].getElementsByTagName("nombre")[0].textContent;
+                        var texto1seccion2 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[1].getElementsByTagName("contenido")[0].getElementsByTagName("descripcion")[0].getElementsByTagName("titulo")[0].textContent;
+                            var lista1seccion2 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[1].getElementsByTagName("contenido")[0].getElementsByTagName("descripcion")[0].getElementsByTagName("lista")[0].textContent;
+                        var titulo2seccion2 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[1].getElementsByTagName("contenido")[1].getElementsByTagName("nombre")[0].textContent;
+
+                        var titulo1seccion3 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[2].getElementsByTagName("contenido")[0].getElementsByTagName("nombre")[0].textContent;
+                        var titulo2seccion3 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[2].getElementsByTagName("contenido")[1].getElementsByTagName("nombre")[0].textContent;
+
+                        var titulo1seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[0].getElementsByTagName("nombre")[0].textContent;
+                        var texto1seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[0].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo2seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[1].getElementsByTagName("nombre")[0].textContent;
+                        var texto2seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[1].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo3seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[2].getElementsByTagName("nombre")[0].textContent;
+                        var texto3seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[2].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo4seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[3].getElementsByTagName("nombre")[0].textContent;
+                        var texto4seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[3].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo5seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[4].getElementsByTagName("nombre")[0].textContent;
+                        var texto5seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[4].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo6seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[5].getElementsByTagName("nombre")[0].textContent;
+                        var texto6seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[5].getElementsByTagName("descripcion")[0].textContent;
+                        var titulo7seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[6].getElementsByTagName("nombre")[0].textContent;
+                        var texto7seccion4 = xmlDoc.getElementsByTagName("apartados")[0].getElementsByTagName("seccion")[3].getElementsByTagName("contenido")[6].getElementsByTagName("descripcion")[0].textContent;
+
+                    document.getElementById("nombre").innerText = nombre;
+                    document.getElementById("perfil").innerText = perfil;
+                    document.getElementById("telefono").innerText = telefono;
+                    document.getElementById("email").innerText = email;
+                    document.getElementById("linkedin").innerText = linkedin;
+                    document.getElementById("github").innerText = github;
+                    document.getElementById("educacion").innerText = educacion1 + "\n" + educacion2 + "\n" + educacion3;
+
+                    document.getElementById("titulo1seccion1").innerHTML = "<strong>" + titulo1seccion1 + "</strong>";
+                    document.getElementById("texto1seccion1").innerHTML = "<br>" + texto1seccion1;
+
+                    document.getElementById("titulo1seccion2").innerHTML = "<strong>" + titulo1seccion2 + "</strong>";
+                    document.getElementById("texto1seccion2").innerHTML = "<br>" + texto1seccion2;
+                    document.getElementById("lista1seccion2").innerHTML = lista1seccion2;
+                    document.getElementById("titulo2seccion2").innerHTML = "<strong>" + titulo2seccion2 + "</strong>";
+
+                    document.getElementById("titulo1seccion3").innerHTML = "<strong>" + titulo1seccion3 + "</strong>";
+                    document.getElementById("titulo2seccion3").innerHTML = "<strong>" + titulo2seccion3 + "</strong>";
+
+                    document.getElementById("titulo1seccion4").innerHTML = "<strong>" + titulo1seccion4 + "</strong> ";
+                    document.getElementById("texto1seccion4").innerHTML = texto1seccion4 + "<br>";
+                    document.getElementById("titulo2seccion4").innerHTML = "<strong>" + titulo2seccion4 + "</strong> ";
+                    document.getElementById("texto2seccion4").innerHTML = texto2seccion4 + "<br>";
+                    document.getElementById("titulo3seccion4").innerHTML = "<strong>" + titulo3seccion4 + "</strong> ";
+                    document.getElementById("texto3seccion4").innerHTML = texto3seccion4 + "<br>";
+                    document.getElementById("titulo4seccion4").innerHTML = "<strong>" + titulo4seccion4 + "</strong> ";
+                    document.getElementById("texto4seccion4").innerHTML = texto4seccion4 + "<br>";
+                    document.getElementById("titulo5seccion4").innerHTML = "<strong>" + titulo5seccion4 + "</strong> ";
+                    document.getElementById("texto5seccion4").innerHTML = texto5seccion4 + "<br>";
+                    document.getElementById("titulo6seccion4").innerHTML = "<strong>" + titulo6seccion4 + "</strong> ";
+                    document.getElementById("texto6seccion4").innerHTML = texto6seccion4 + "<br>";
+                    document.getElementById("titulo7seccion4").innerHTML = "<strong>" + titulo7seccion4 + "</strong> ";
+                    document.getElementById("texto7seccion4").innerHTML = texto7seccion4 + "<br>";
+                }
+            };
+            xhr.send();
+        }
+        window.onload = function() {
+            cargarDatosXML();
+        };
     </script>
 </body>
 </html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<informacion>
+
+    <persona>
+        <nombre>RICARDO EMMANUEL SÁNCHEZ MARTÍNEZ</nombre>
+        <telefono> 7731921151</telefono>
+        <email> ricardoesm03@outlook.com</email>
+        <linkedin> https://www.linkedin.com/in/rickaldo/</linkedin>
+        <github> https://github.com/ChellShort</github>
+    </persona>
+    <perfil>Estudiante de Ingeniería en Sistemas Computacionales. Una persona con alto razonamiento lógico y habilidades de pensamiento crítico. Me apasiona aprender nuevas competencias y desarrollar mis habilidades personales.</perfil>
+    <educación>
+        <carrera>Ingeniería en Sistemas Computacionales (Estudiando)</carrera>
+        <periodo>Septiembre 2021 - Diciembre 2024</periodo> 
+        <institución>Universidad Politécnica de Querétaro</institución>   
+    </educación>
+    <apartados>
+        <seccion>
+            <nombre>EXPERIENCIA EN PROYECTOS</nombre>
+            <contenido>
+                <nombre>REINGENIERIA DE SISTEMA INTEGRAL UPQ</nombre>
+                <descripcion>Enfocado en la creación y mantenimiento de secciones y apartados del proyecto de reingeniería del Sistema Integral 
+                    de Información dentro de la Universidad Politécnica de Querétaro
+                </descripcion>
+            </contenido>
+        </seccion>
+        <seccion>
+            <nombre>IDIOMAS</nombre>
+            <contenido>
+                <nombre>INGLÉS</nombre>
+                <descripcion>
+                    <titulo>Nivel B2</titulo>
+                    <lista>Certificado TOEFL ITP
+                        Puntuación obtenida: 573
+                    </lista>
+                </descripcion>
+            </contenido>
+            <contenido>
+                <nombre>ESPAÑOL NATIVO</nombre>
+            </contenido>
+        </seccion>
+        <seccion>
+            <nombre>CERTIFICADOS</nombre>
+            <contenido>
+                <nombre>CCNAv7: Switching, Routing, and Wireless Essentials</nombre>
+            </contenido>
+            <contenido>
+                <nombre>CCNAv7: Redes empresariales, Seguridad y Automatización</nombre>
+            </contenido>
+        </seccion>
+        <seccion>
+            <nombre>HABILIDADES TECNICAS</nombre>
+            <contenido>
+                <nombre>Lenguajes de Programación:</nombre>
+                <descripcion>Python (1 año), Java (1 año)</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>Gestión de Versiones:</nombre>
+                <descripcion>Github</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>Gestor de datos:</nombre>
+                <descripcion>MSSQL server, SQL lite</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>Editores de código:</nombre>
+                <descripcion>Visual Studio Code</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>WEB:</nombre>
+                <descripcion>HTML 5, CSS3, VUE.JS, PHP</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>Paqueterías Microsoft Office:</nombre>
+                <descripcion>Excel, PowerPoint, Word</descripcion>
+            </contenido>
+            <contenido>
+                <nombre>Herramientas de edición video:</nombre>
+                <descripcion>Shortcut, Filmora</descripcion>
+            </contenido>
+        </seccion>
+        <seccion>
+            <nombre>DIVERSIÓN</nombre>
+        </seccion>
+    </apartados>
+</informacion>
